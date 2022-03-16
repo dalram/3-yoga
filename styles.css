@@ -22,10 +22,30 @@ nav {
 }
 a {
     display: inline-block;
+    padding-bottom: 5px;
+    margin-left: 20px;
     font-size: 20px;
     line-height: 20px;
-    margin-left: 20px;
     text-decoration: none;
     color: black;
     /* Tik tekstines savybes paveldimos is tevyniu elementu! */
+}
+a:hover {
+    color: red;
+    /* text-decoration: underline; tai nebuvo underline`as */
+    border-bottom: solid 2px red;
+    /* hover uzejus ant elemento. */
+    
+}
+/* main:hover {
+    font-size: 200px; Galima net main padaryti hoveriu ;)
+} */
+/* a:nth-child(2n){
+    border-bottom: solid 2px red; 
+    /* kas antras elementas su borderiu */
+a:first-child {
+    border-bottom: solid 2px red;
+}
+a:active {
+    color: blue;
 }
