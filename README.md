@@ -9,7 +9,7 @@ _Yoga design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://github.com/front-end-by-rimantas/35-grupe-ufo/
+Site published at: https://dalram.github.io/3-yoga/
 
 Design: [Yoga] (https://cdn.discordapp.com/attachments/850245533838868480/916019208788258886/yoga-lifestyle.png)
 
