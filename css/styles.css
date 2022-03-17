@@ -15,10 +15,10 @@ body > main {
     margin-left: calc(50% - 500px);
     margin-right: calc(50% - 500px);
     display: inline-block;
+    margin-top: 20px;
 }
 body > main {
     margin-top: 100px;
-    line-height: 20px;
 }
 header > img {
     height: 46px;
@@ -55,19 +55,23 @@ nav > a:hover {
 nav > a:active {
     color: blue;
 }
-div > a {
-    background-color: orange;
-}
+
 main > div {
     width: 45%;
     float: left;
     padding-right: 10%;
 }
 div > h1 {
-
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-family: cursive;
+}
+h1 > span {
+    color: tomato;
 }
 div > p {
-
+    margin-bottom: 40px;
+    color: rgb(100, 100, 100);
 }
 main > img {
     width: 55%;
@@ -76,3 +80,14 @@ main > img {
     object-fit: contain;
     object-position: center;
 }
+div > a {
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+    background-color: tomato;
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+/* Favicon yra puslapio paveiksliukas prie title`o narsyklej */
