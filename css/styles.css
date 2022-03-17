@@ -90,4 +90,10 @@ div > a {
     text-decoration: none;
     font-size: large;
 }
+div > a:hover {
+    background-color: red;
+}
+div > a:active {
+    color: blue;
+}
 /* Favicon yra puslapio paveiksliukas prie title`o narsyklej */
