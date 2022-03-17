@@ -1,26 +1,34 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-header,
-main {
-    width: 800px;
-    margin-left: calc(50% - 400px);
-    margin-right: calc(50% - 400px);
+/* Sitos pirmos 10 eiluciu kiekviename projekte svarbiausios, kad lygiuotu borderius */
+body > header,
+body > main {
+    width: 1000px;
+    margin-left: calc(50% - 500px);
+    margin-right: calc(50% - 500px);
     display: inline-block;
 }
-main {
+body > main {
     margin-top: 100px;
     line-height: 20px;
 }
-img {
+header > img {
     height: 46px;
     float: left;
 }
-nav {
+header > nav {
     float: right;
     margin-top: 13px;
 }
-a {
+nav > a {
     display: inline-block;
     padding-bottom: 5px;
     margin-left: 20px;
@@ -30,8 +38,8 @@ a {
     color: black;
     /* Tik tekstines savybes paveldimos is tevyniu elementu! */
 }
-a:hover {
-    color: red;
+nav > a:hover {
+    color: black;
     /* text-decoration: underline; tai nebuvo underline`as */
     border-bottom: solid 2px red;
     /* hover uzejus ant elemento. */
@@ -43,9 +51,27 @@ a:hover {
 /* a:nth-child(2n){
     border-bottom: solid 2px red; 
     /* kas antras elementas su borderiu */
-a:first-child {
-    border-bottom: solid 2px red;
-}
-a:active {
+
+nav > a:active {
     color: blue;
+}
+div > a {
+    background-color: orange;
+}
+main > div {
+    width: 35%;
+    float: left;
+    padding-right: 10%;
+}
+div > h1 {
+
+}
+div > p {
+
+}
+main > img {
+    width: 55%;
+    float: left;
+    height: 300px;
+    background-color: green;
 }
