@@ -59,7 +59,7 @@ div > a {
     background-color: orange;
 }
 main > div {
-    width: 35%;
+    width: 45%;
     float: left;
     padding-right: 10%;
 }
@@ -72,6 +72,7 @@ div > p {
 main > img {
     width: 55%;
     float: left;
-    height: 300px;
-    background-color: green;
+    height: 400px;
+    object-fit: contain;
+    object-position: center;
 }
